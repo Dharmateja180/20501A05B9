@@ -21,7 +21,11 @@ function NumberFetch() {
 
     const uniqueNumbers = [...new Set(combinedNumbers)];
     const sortedUniqueNumbers = quickSort(uniqueNumbers); // Sort using quicksort
+<<<<<<< HEAD
     setOutputResult(JSON.stringify({ Numbers: sortedUniqueNumbers }, null, 2));
+=======
+    setOutputResult(JSON.stringify({Numbers: sortedUniqueNumbers }, null, 2));
+>>>>>>> 6b18de1abeb64a7c8828b6672a02a0ee4aa42149
   };
 
   // Quicksort implementation
