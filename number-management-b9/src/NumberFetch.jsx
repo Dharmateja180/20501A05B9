@@ -59,7 +59,7 @@ function NumberFetch() {
         <button onClick={fetchUniqueNumbers}>Sort</button>
       </div>
       <div>
-        <h3>Result:</h3>
+        <h3>Numbers:</h3>
         <pre>{outputResult}</pre>
       </div>
     </div>
